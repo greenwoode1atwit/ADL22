@@ -2,6 +2,7 @@
 
 ## 1. Introduction:
 - What is your MSE/MAE with linreg vs tuned network?
+
 Linreg/TunedNet is 27.86/21.52 after adding a layer and giving it more than 1 braincell
 - What happens to your train and test results if you add 5 hidden layers with 128 neurons each?
 it go brr
