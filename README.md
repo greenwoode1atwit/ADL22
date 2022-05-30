@@ -38,16 +38,16 @@ downsampling that just takes the maximum value in each window
 ## 4. Layers:
 - Define I, O, F, S, P as used in this lecture (Give a brief, 1-sentence description)
 
-
+Input volume, Output volume, Filter, Stride, Padding
 - What is my output size if Input = (100, 100), kernel size=(2, 2), the stride of 1, and no pooling?
 
-
+(99, 99)
 - How many weights do I have if I have 24 such filters stacked (conv2_24)?
 
-
+192 weights
 - Solve for the padding (P), in terms of I, F, and S, if we want the input and output size to remain the same.
 
-
+P = ( F + S(I - 1) - I ) / 2 
 
 ## 5. Practical Patterns
 - What can we use the ImageDataGenerator for? What can it help us fight? (Give a brief, 1-sentence description)
