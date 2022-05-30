@@ -52,7 +52,7 @@ P = ( F + S(I - 1) - I ) / 2
 ## 5. Practical Patterns
 - What can we use the ImageDataGenerator for? What can it help us fight? (Give a brief, 1-sentence description)
 
-
+It can be used to add random variation to input images to avoid unexpected bias
 - What is a better idea: To use one larger kernel (8,8) or multiple stacked smaller ones, 4x(2,2)? Why? Show the number of weights for each option.
 
-
+Stacked smaller ones, as there are less weights and can help avoid over training or long processing times. for this case the larger kernal is 64 weights while the stacked smaller kernals is only 16 weights total
